@@ -108,3 +108,13 @@ a:hover {
   transform: scale(1.25);
   filter: none;
 }
+
+.page-footer .footer-links {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
+  }
+}
